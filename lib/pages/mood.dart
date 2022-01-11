@@ -36,12 +36,7 @@ class _MoodPageState extends State<MoodPage> {
           Navigator.pushReplacementNamed(context, '/mood');
         },
       ),
-      ListTile(
-        title: const Text('Your Favorites'),
-        onTap: () {
-          Navigator.pushNamed(context, '/wishlist');
-        },
-      ),
+
     ],
   ),),
       appBar: AppBar(

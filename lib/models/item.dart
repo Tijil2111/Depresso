@@ -3,12 +3,13 @@ import 'package:get/get.dart';
 class Item {
   int id;
   String name;
-  double price;
+  String category;
   RxBool
       inWishList; 
   Item(
-      {required this.id,
+      {
+        required this.id,
       required this.name,
-      required this.price,
+      required this.category,
       required this.inWishList});
 }

@@ -1,14 +1,9 @@
 // ignore_for_file: sized_box_for_whitespace, prefer_const_constructors, use_key_in_widget_constructors, unused_field
 
-import 'package:depresso/state/products.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:flutter_carousel_slider/carousel_slider_transforms.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_carousel_slider/carousel_slider.dart';
 
 class Home extends StatefulWidget {
-    final Products _p = Get.put(Products());
 
   @override
   _HomeState createState() => _HomeState();
@@ -41,12 +36,7 @@ class _HomeState extends State<Home> {
           Navigator.pushReplacementNamed(context, '/mood');
         },
       ),
-      ListTile(
-        title: const Text('Your Favorites'),
-        onTap: () {
-          Navigator.pushNamed(context, '/wishlist');
-        },
-      ),
+
     ],
   ),),
       appBar: AppBar(
