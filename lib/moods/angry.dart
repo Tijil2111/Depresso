@@ -1,6 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:depresso/bottomSheets/angry_song.dart';
+import 'package:depresso/bottomSheets/angry_bottom.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -69,7 +69,10 @@ class _AngryState extends State<Angry> {
                             isScrollControlled:true,
                            context: context,
                            builder: (BuildContext context) {
-                            return AngrySongs();
+                            return Container(
+                              height: 700,
+                              child: AngrySongs()
+                            );
                             });
                           },
                           highlightElevation: 100,
@@ -91,7 +94,18 @@ class _AngryState extends State<Angry> {
                           height: 100.0,
                         child: RaisedButton(
                           onPressed: (){
-                             
+                             showModalBottomSheet(
+                              shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20.0),
+                          ),
+                            isScrollControlled:true,
+                           context: context,
+                           builder: (BuildContext context) {
+                            return Container(
+                              height: 700,
+                              child: AngryAnime()
+                            );
+                            });
                         },
                           highlightElevation: 100,
                           color: Colors.grey,

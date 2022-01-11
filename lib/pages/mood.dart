@@ -85,6 +85,7 @@ class _MoodPageState extends State<MoodPage> {
                       child: ButtonTheme(
                           minWidth: 200.0,
                           height: 100.0,
+                          
                         child: RaisedButton(
                           onPressed: (){Navigator.pushNamed(context, '/sad');},
                           highlightElevation: 100,
