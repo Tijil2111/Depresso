@@ -19,6 +19,13 @@ class _AngryState extends State<Angry> {
           ),
         centerTitle: true,
       ),
+      body: Center(
+        child: Column(
+          children: [
+            const SizedBox(height: 30,) 
+          ],
+        ),
+      ),
     );
   }
 }
