@@ -1,3 +1,7 @@
+import 'package:depresso/moods/angry.dart';
+import 'package:depresso/moods/calm.dart';
+import 'package:depresso/moods/depressed.dart';
+import 'package:depresso/moods/sad.dart';
 import 'package:depresso/pages/home.dart';
 import 'package:depresso/pages/home_screen.dart';
 import 'package:depresso/pages/mood.dart';
@@ -13,6 +17,10 @@ void main() {
       '/home':(context)=> Home(),
       '/wishlist': (context)=> WishListScreen(),
       '/mood':(context)=> MoodPage(),
+      '/sad': (context)=> Sad(),
+      '/angry':(context)=> Angry(),
+      '/depressed':(context)=> Depressed(),
+      '/calm':(context)=> Calm(),
     },
     
   ));

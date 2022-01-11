@@ -70,7 +70,9 @@ class _MoodPageState extends State<MoodPage> {
                           minWidth: 200.0,
                           height: 100.0,
                         child: RaisedButton(
-                          onPressed: (){},
+                          onPressed: (){
+                            Navigator.pushNamed(context, '/angry');
+                          },
                           highlightElevation: 100,
                           color: Colors.grey,
                           child: Text(
@@ -89,7 +91,7 @@ class _MoodPageState extends State<MoodPage> {
                           minWidth: 200.0,
                           height: 100.0,
                         child: RaisedButton(
-                          onPressed: (){},
+                          onPressed: (){Navigator.pushNamed(context, '/sad');},
                           highlightElevation: 100,
                           color: Colors.grey,
                           child: Text(
@@ -114,7 +116,7 @@ class _MoodPageState extends State<MoodPage> {
                           minWidth: 200.0,
                           height: 100.0,
                         child: RaisedButton(
-                          onPressed: (){},
+                          onPressed: (){Navigator.pushNamed(context, '/depressed');},
                           highlightElevation: 100,
                           color: Colors.grey,
                           child: Text(
@@ -133,7 +135,7 @@ class _MoodPageState extends State<MoodPage> {
                           minWidth: 200.0,
                           height: 100.0,
                         child: RaisedButton(
-                          onPressed: (){},
+                          onPressed: (){Navigator.pushNamed(context, '/calm');},
                           highlightElevation: 100,
                           color: Colors.grey,
                           child: Text(
