@@ -17,7 +17,7 @@ void main() {
       '/sad': (context)=> Sad(),
       '/angry':(context)=> Angry(),
       '/depressed':(context)=> Depressed(),
-      '/calm':(context)=> Calm()
+      '/calm':(context)=> Calm(),
     },
     
   ));
