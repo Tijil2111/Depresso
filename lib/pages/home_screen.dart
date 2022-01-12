@@ -36,12 +36,6 @@ class _HomeState extends State<Home> {
           Navigator.pushReplacementNamed(context, '/mood');
         },
       ),
-        ListTile(
-        title: const Text('Calender'),
-        onTap: () {
-          Navigator.pushReplacementNamed(context, '/calender');
-        },
-      ),
 
     ],
   ),),

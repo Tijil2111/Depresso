@@ -1,4 +1,5 @@
 import 'package:depresso/bottomSheets/angry_bottom.dart';
+import 'package:depresso/bottomSheets/calm_bottom.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -69,7 +70,7 @@ class _CalmState extends State<Calm> {
                            builder: (BuildContext context) {
                             return Container(
                               height: 700,
-                              child: AngrySongs()
+                              child:CalmSongs()
                             );
                             });
                           },
@@ -101,7 +102,7 @@ class _CalmState extends State<Calm> {
                            builder: (BuildContext context) {
                             return Container(
                               height: 700,
-                              child: AngryAnime()
+                              child: CalmAnime()
                             );
                             });
                         },
