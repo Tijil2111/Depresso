@@ -107,7 +107,7 @@ class _MeditationPageState extends State<MeditationPage> {
             Padding(
               padding: const EdgeInsets.only(left:5.0, right: 2),
               child: Text(
-                'Close your eyes. Sit on the floor and listen to the sound. Also this is a 5 minute Meditation. Dont loose focus. Do this everyday. Eventually you will feel extremely good. Your depression, anxiety and all tensions will get controlled. Try it once',
+                'Close your eyes. Sit on the floor and listen to the sound. Also this is a 5 minute Meditation. Dont loose focus. Do this everyday. Eventually you will feel extremely good. Your depression, anxiety and all tensions will get controlled.',
                 style: GoogleFonts.pacifico(
                   textStyle: TextStyle(fontSize: 17)
                 )
