@@ -36,6 +36,12 @@ class _MoodPageState extends State<MoodPage> {
           Navigator.pushReplacementNamed(context, '/mood');
         },
       ),
+        ListTile(
+        title: const Text('Meditation'),
+        onTap: () {
+          Navigator.pushReplacementNamed(context, '/meditate');
+        },
+      ),
 
     ],
   ),),

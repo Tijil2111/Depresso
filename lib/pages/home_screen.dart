@@ -36,6 +36,12 @@ class _HomeState extends State<Home> {
           Navigator.pushReplacementNamed(context, '/mood');
         },
       ),
+        ListTile(
+        title: const Text('Meditation'),
+        onTap: () {
+          Navigator.pushReplacementNamed(context, '/meditate');
+        },
+      ),
 
     ],
   ),),
