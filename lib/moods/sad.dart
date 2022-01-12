@@ -15,7 +15,7 @@ class _SadState extends State<Sad> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Sads',
+          'Sad',
           style: GoogleFonts.pacifico(),
           ),
         centerTitle: true,
