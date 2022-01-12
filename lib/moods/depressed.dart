@@ -1,4 +1,5 @@
 import 'package:depresso/bottomSheets/calm_bottom.dart';
+import 'package:depresso/bottomSheets/depressed_bottom.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -29,7 +30,7 @@ class _DepressedState extends State<Depressed> {
             padding: const EdgeInsets.all(8.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(50),
-              child: Image.network('https://media.istockphoto.com/photos/african-american-woman-day-dreaming-in-public-park-on-beautiful-day-picture-id1289286426')
+              child: Image.network('https://media.istockphoto.com/photos/its-okay-to-ask-for-help-with-your-mental-health-picture-id1294430340')
             ),
           ),
         ), 
@@ -69,7 +70,7 @@ class _DepressedState extends State<Depressed> {
                            builder: (BuildContext context) {
                             return Container(
                               height: 700,
-                              child:CalmSongs()
+                              child:DepressedSongs()
                             );
                             });
                           },
@@ -101,7 +102,7 @@ class _DepressedState extends State<Depressed> {
                            builder: (BuildContext context) {
                             return Container(
                               height: 700,
-                              child: CalmAnime()
+                              child: DepressedAnime()
                             );
                             });
                         },
